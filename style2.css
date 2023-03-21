@@ -8,6 +8,7 @@ body {
   align-items: center;
   height: 100vh;
   background-color: #002e48;
+  font-family:'Rubik', sans-serif;
 }
 
 .container {
@@ -54,13 +55,42 @@ form .input1 {
   height: 45px;
   align-items: center;
 }
-
+#radiofeedback{
+  color: red;
+  text-align: center;
+  display: none;
+  
+}
 form .input1 input {
   width: 80%;
   background-color:#fff;
   border: none;
   outline: none;
   padding-left: 10px;
+}
+
+form .input3 {
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  height: 45px;
+  align-items: center;
+}
+
+form .input3 input {
+  width: 80%;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+
+form .input3 img {
+  height: 15px;
+  width: 16px;
+  margin-left: 10px;
 }
 
 form input::placeholder{
@@ -170,7 +200,7 @@ form .input2 img {
   form{
     padding: 0px 0px;
   }
-form .input1, form .input2 {
+form .input1, form .input3, form .input2 {
  
   height: 40px;
 }
