@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <form id="form">
+            <h2>Hello,</h2>
+            <div class="input1">
+                <img src="/assets/user.png">
+                <input class="form-input" type="text" placeholder="Name" required id="input">
+            </div>
+            <div class="input1">
+                <img src="/assets/mail.png">
+                <input class="form-input" type="email" placeholder="Email" email id="email">
+            </div>
+
+            <div class="input2">
+                <img src="/assets/lock.png">
+                <input type="password" placeholder="Password" required class="input">
+
+                <img src="/assets/eye-off.png" id="closed">
+
+
+            </div>
+
+
+            <div class="auth">
+                <input type="radio" class="check">
+                <p>I’ve read and agreed to the <span>Terms & Conditions.</span> </p>
+            </div>
+
+            <div class="create">
+                <button type="submit" id="button">CREATE ACCOUNT</button>
+                <p>Already registered? <span>Sign in</span></p>
+            </div>
+
+        </form>
+
+        <div class="sec-half">
+            <img src="./assets/signup.png" alt="">
+            <h3>Discover the rare and unique world of digital assets.</h3>
+        </div>
+
+    </div>
+
+    <script src="/form.js"></script>
+</body>
+
+</html>
